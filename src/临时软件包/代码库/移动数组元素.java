@@ -11,7 +11,6 @@ public class 移动数组元素 {
         }
 
         value1[0] = last;
-
         for (int val : value1)
         {
             System.out.print(val + " ");
@@ -23,7 +22,6 @@ public class 移动数组元素 {
         int first = value2[0];
         for (int i = 0; i < value2.length; i++)
         {
-            // if it's not the last element, copy the next one over
             if (i < value2.length - 1)
             {
                 value2[i] = value2[i+1];
