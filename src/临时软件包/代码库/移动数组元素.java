@@ -9,7 +9,6 @@ public class 移动数组元素 {
         for(int i = value1.length-1; i > 0; i--) {
             value1[i] = value1[i-1];
         }
-
         value1[0] = last;
         for (int val : value1)
         {
