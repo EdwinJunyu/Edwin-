@@ -1,7 +1,5 @@
 package 临时软件包;
-
 import java.util.ArrayList;
-
 public class 圣诞树 {
     public static void main(String[] args) {
         TreeObject treeObject = new TreeObject();
@@ -13,7 +11,6 @@ public class 圣诞树 {
         treeObject.printTree();
     }
 }
-
 
 class TreeObject {
     private ArrayList<Node> nodes = new ArrayList<>();
